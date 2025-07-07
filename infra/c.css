@@ -1,0 +1,75 @@
+body{
+    overflow: hidden;
+    background-color: black;
+}
+
+h3{
+    color: orange;
+}
+
+.main_holder{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.second_holder{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.concept_holder{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text_holder{
+    color: coral;
+}
+
+.button_dead{
+    font-size: 2rem;
+    width: 100%;
+    color: grey;
+    background-color: cadetblue;
+    border-color: aqua;
+    text-decoration: none;
+    border-style: dotted;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+.button_live{
+    font-size: 2rem;
+    width: 100%;
+    color: orangered;
+    background-color: black;
+    border-color: orange;
+    text-decoration: none;
+    border-style: dotted;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+.button_live:hover{
+    font-size: 2rem;
+    width: 100%;
+    color: orchid;
+    background-color: brown;
+    border-color: orange;
+    text-decoration: none;
+    border-style: dotted;
+    border-width: 4px;
+    border-radius: 5px;
+}
